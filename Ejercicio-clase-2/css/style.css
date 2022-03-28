@@ -1,0 +1,9 @@
+h1 {
+  background-color: aquamarine;
+}
+
+/* Selector de id */
+#sub-title {
+  color: blue;
+  font-size: 12px;
+}

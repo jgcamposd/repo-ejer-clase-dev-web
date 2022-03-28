@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
+}
+/* Nav top flexbox configuration */
+.nav-top {
+  background-color: red;
+  font-size: 22px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-top--links {
+  list-style-type: none;
+  color: #fff;
+  flex: 0 1 30%;
+}
+.nav-top--links li {
+  text-decoration: none;
+}
+.nav-top-item a {
+  display: inline-block;
+}
+.nav-top-item-1 {
+  flex: 0 1 40%;
+}
+.nav-bottom-container {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hamburg-office-location li,
+.hamburg-office-contact li {
+  list-style-type: none;
+}
+a:link,
+:visited {
+  color: #fff;
+}
+
+/* mouse over link and active*/
+a:hover,
+:active {
+  color: rgb(180, 175, 175);
+}
