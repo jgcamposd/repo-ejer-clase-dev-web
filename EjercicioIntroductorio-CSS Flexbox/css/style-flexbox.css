@@ -1,0 +1,51 @@
+.flex-container {
+  /* General settings for flex-container*/
+  height: 100vh;
+  background: linear-gradient(90deg, #eb3349, #f45c43);
+  color: whitesmoke;
+  font-family: sans-serif;
+
+  /* Flex display settings */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 1.5rem;
+}
+/* Flex items and sub-items settings*/
+.flex-item {
+  flex: 0 1 auto;
+}
+.subitem-number {
+  font-weight: bold;
+  font-size: 5em;
+  text-align: center;
+}
+.subitem-timeunit {
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+}
+/*Media Queries*/
+
+/*Media Querie for tablets*/
+@media only screen and (max-width: 1000px) {
+  .flex-item {
+    flex: 0 1 50%;
+  }
+}
+/*Media Querie for smartphones*/
+@media only screen and (max-width: 500px) {
+  .flex-item {
+    flex: 0 0 100%;
+  }
+}
+/*Media Querie fix for Galaxy Fold (in landscape position | no-fold) smartphone*/
+@media only screen and (max-width: 660px) and (max-height: 300px) {
+  .subitem-number {
+    font-size: 3em;
+  }
+  .subitem-timeunit {
+    font-size: 1.25em;
+  }
+}
