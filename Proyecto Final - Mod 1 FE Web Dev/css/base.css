@@ -1,3 +1,11 @@
+.main-wrapper {
+  padding-top: 70px;
+}
+
+.navbar-custom {
+  background-color: #fff;
+}
+
 .navbar-custom li a {
   color: #073256 !important;
   text-transform: uppercase;
@@ -11,5 +19,47 @@
   border-left: 1px solid #3a567d;
   margin-left: 1em;
   padding-left: 1em;
+}
+
+.business-slogan img {
+  max-height: 50vh;
+}
+
+.business-slogan h2 {
+  color: #073256 !important;
+}
+
+.business-slogan a {
+  border-radius: 200px;
+  background-color: #073256;
+}
+
+.business-slogan .btn-muted {
+  background-color: #afc3d3;
+}
+
+.business-slogan .text-muted {
+  color: #afc3d3;
+}
+
+.footer-custom h2 {
+  font-size: 1.65em;
+  margin-bottom: 1em;
+  color: #073256 !important;
+}
+
+.footer-custom h3 {
+  margin-bottom: 0.25rem;
+  color: #073256 !important;
+}
+
+.footer-custom a {
+  color: #073256 !important;
+  text-decoration: none;
+}
+
+.footer-custom ul {
+  list-style: none;
+  padding-left: 0;
 }
 /*# sourceMappingURL=base.css.map */
