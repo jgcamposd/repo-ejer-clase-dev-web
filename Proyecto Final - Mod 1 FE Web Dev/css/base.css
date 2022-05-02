@@ -1,0 +1,15 @@
+.navbar-custom li a {
+  color: #073256 !important;
+  text-transform: uppercase;
+}
+
+.active {
+  font-weight: 700;
+}
+
+#lang-list {
+  border-left: 1px solid #3a567d;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+/*# sourceMappingURL=base.css.map */

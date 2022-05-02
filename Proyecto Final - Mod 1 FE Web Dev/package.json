@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-final---mod-1-fe-web-dev",
+  "version": "1.0.0",
+  "description": "Proyecto final Mod 1 Programa FE Web Dev",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch sass:css"
+  },
+  "keywords": [
+    "proyecto-final",
+    "bootstrap-v5",
+    "sass"
+  ],
+  "author": "Juan Gabriel Campos Durán",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.5",
+    "bootstrap": "^5.1.3",
+    "postcss-cli": "^9.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.51.0"
+  }
+}
