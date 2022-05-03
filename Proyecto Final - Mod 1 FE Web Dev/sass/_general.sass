@@ -1,5 +1,5 @@
 .main-wrapper
-  padding-top: 70px
+  padding-top: 100px
 
 // Header custom changes
 .navbar-custom
@@ -8,6 +8,8 @@
     a
       color: $text-primary
       text-transform: uppercase
+      img
+        height: 400px
 
 .active
   font-weight: 700
@@ -30,6 +32,25 @@
     background-color: $muted
   .text-muted
     color: $muted
+
+.business-solutions
+  .business-card:not(:last-of-type)
+    border-right: 1px solid rgba(58, 86, 125, .4)
+  
+  color: $text-primary
+  img
+    max-height: 80px
+    margin-bottom: 1.5em
+  a
+    border-radius: 200px
+    background-color: $bg-primary
+  .btn-muted
+    background-color: $muted
+
+.testimonials
+  a
+    border-radius: 200px
+    background-color: $bg-primary
 
 // Footer custom changes
 .footer-custom

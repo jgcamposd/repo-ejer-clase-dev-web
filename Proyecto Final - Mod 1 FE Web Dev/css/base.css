@@ -1,5 +1,5 @@
 .main-wrapper {
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 .navbar-custom {
@@ -9,6 +9,10 @@
 .navbar-custom li a {
   color: #073256 !important;
   text-transform: uppercase;
+}
+
+.navbar-custom li a img {
+  height: 400px;
 }
 
 .active {
@@ -31,15 +35,42 @@
 
 .business-slogan a {
   border-radius: 200px;
-  background-color: #073256;
+  background-color: #073256 !important;
 }
 
 .business-slogan .btn-muted {
-  background-color: #afc3d3;
+  background-color: #afc3d3 !important;
 }
 
 .business-slogan .text-muted {
-  color: #afc3d3;
+  color: #afc3d3 !important;
+}
+
+.business-solutions {
+  color: #073256 !important;
+}
+
+.business-solutions .business-card:not(:last-of-type) {
+  border-right: 1px solid rgba(58, 86, 125, 0.4);
+}
+
+.business-solutions img {
+  max-height: 80px;
+  margin-bottom: 1.5em;
+}
+
+.business-solutions a {
+  border-radius: 200px;
+  background-color: #073256 !important;
+}
+
+.business-solutions .btn-muted {
+  background-color: #afc3d3 !important;
+}
+
+.testimonials a {
+  border-radius: 200px;
+  background-color: #073256 !important;
 }
 
 .footer-custom h2 {
