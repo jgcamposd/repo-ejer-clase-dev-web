@@ -1,3 +1,17 @@
+h1, h2, h3 {
+  font-weight: 700;
+  color: #073256 !important;
+}
+
+a {
+  color: #073256 !important;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .main-wrapper {
   padding-top: 100px;
 }
@@ -7,7 +21,6 @@
 }
 
 .navbar-custom li a {
-  color: #073256 !important;
   text-transform: uppercase;
 }
 
@@ -25,25 +38,48 @@
   padding-left: 1em;
 }
 
+.btn {
+  background-color: #073256 !important;
+  border-radius: 200px;
+}
+
+.btn:hover {
+  background-color: #041d33 !important;
+}
+
+.btn-muted {
+  background-color: #afc3d3 !important;
+}
+
+.btn-muted:hover {
+  background-color: #96b0c5 !important;
+}
+
+.text-muted {
+  color: #afc3d3 !important;
+}
+
+.btn-gray {
+  color: #212529;
+  background-color: #f8f9fa !important;
+}
+
+.btn-gray:hover {
+  background-color: #e2e6ea !important;
+}
+
+.bg-light {
+  background-color: #eaeef2 !important;
+}
+
 .business-slogan img {
   max-height: 50vh;
 }
 
 .business-slogan h2 {
   color: #073256 !important;
-}
-
-.business-slogan a {
-  border-radius: 200px;
-  background-color: #073256 !important;
-}
-
-.business-slogan .btn-muted {
-  background-color: #afc3d3 !important;
-}
-
-.business-slogan .text-muted {
-  color: #afc3d3 !important;
+  font-size: 3em;
+  font-weight: 700;
 }
 
 .business-solutions {
@@ -59,34 +95,26 @@
   margin-bottom: 1.5em;
 }
 
-.business-solutions a {
-  border-radius: 200px;
-  background-color: #073256 !important;
+.grab-coffee {
+  color: #073256 !important;
+  border-top: 1px solid rgba(58, 86, 125, 0.4);
 }
 
-.business-solutions .btn-muted {
-  background-color: #afc3d3 !important;
-}
-
-.testimonials a {
-  border-radius: 200px;
-  background-color: #073256 !important;
+.footer-custom {
+  background-color: #f8f9fa !important;
 }
 
 .footer-custom h2 {
-  font-size: 1.65em;
-  margin-bottom: 1em;
-  color: #073256 !important;
+  font-size: 1.65rem;
+  margin-bottom: 0.25rem;
 }
 
 .footer-custom h3 {
   margin-bottom: 0.25rem;
-  color: #073256 !important;
 }
 
-.footer-custom a {
-  color: #073256 !important;
-  text-decoration: none;
+.footer-custom p {
+  margin-bottom: 0;
 }
 
 .footer-custom ul {
