@@ -3,20 +3,25 @@ h1, h2, h3 {
   color: #073256 !important;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
 a {
   color: #073256 !important;
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 .main-wrapper {
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 .navbar-custom {
+  padding: 0.25rem 1.5rem;
   background-color: #fff;
 }
 
@@ -76,18 +81,8 @@ a:hover {
   max-height: 50vh;
 }
 
-.business-slogan h2 {
-  color: #073256 !important;
-  font-size: 3em;
-  font-weight: 700;
-}
-
 .business-solutions {
   color: #073256 !important;
-}
-
-.business-solutions .business-card:not(:last-of-type) {
-  border-right: 1px solid rgba(58, 86, 125, 0.4);
 }
 
 .business-solutions img {
@@ -95,9 +90,8 @@ a:hover {
   margin-bottom: 1.5em;
 }
 
-.grab-coffee {
-  color: #073256 !important;
-  border-top: 1px solid rgba(58, 86, 125, 0.4);
+.border-top {
+  border-top: 1px solid #3a567d !important;
 }
 
 .footer-custom {
@@ -105,11 +99,12 @@ a:hover {
 }
 
 .footer-custom h2 {
-  font-size: 1.65rem;
-  margin-bottom: 0.25rem;
+  font-size: 1.65em;
+  margin-bottom: 1em;
 }
 
 .footer-custom h3 {
+  font-size: 1.3em;
   margin-bottom: 0.25rem;
 }
 
@@ -120,5 +115,34 @@ a:hover {
 .footer-custom ul {
   list-style: none;
   padding-left: 0;
+}
+
+.footer-custom ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-custom .fs-xs {
+  font-size: 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+  .business-slogan h2 {
+    font-size: 3em;
+  }
+  .business-card:not(:last-of-type) {
+    border-right: 1px solid rgba(58, 86, 125, 0.4);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .footer-custom h2 {
+    font-size: 1.35em;
+  }
 }
 /*# sourceMappingURL=base.css.map */
