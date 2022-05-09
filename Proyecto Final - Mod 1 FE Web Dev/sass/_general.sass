@@ -64,12 +64,26 @@ a
   img
     max-height: 80px
     margin-bottom: 1.5em
-
+.portfolio-list
+  .card
+    min-height: 280px
+    border-radius: 1em
+    overflow: hidden
+    background-color: $bg-primary-light
+  .card-body
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 3em
+    p
+      margin-bottom: 0
+      font-size: 2em
+      color: white
 .testimonials
 
 // Let's grab a coffe
 .border-top
-  border-top: 1px solid $border-primary
+  border-top: 1px solid $bg-primary-light
   border-top
 
 // Footer custom changes
@@ -108,3 +122,8 @@ a
   .footer-custom
     h2
       font-size: 1.35em
+  .portfolio-list
+    .card
+      min-height: 140px
+    .card-body
+      padding: 1em

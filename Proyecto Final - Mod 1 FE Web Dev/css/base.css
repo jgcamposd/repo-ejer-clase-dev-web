@@ -90,6 +90,32 @@ a {
   margin-bottom: 1.5em;
 }
 
+.portfolio-list .card {
+  min-height: 280px;
+  border-radius: 1em;
+  overflow: hidden;
+  background-color: #3a567d !important;
+}
+
+.portfolio-list .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3em;
+}
+
+.portfolio-list .card-body p {
+  margin-bottom: 0;
+  font-size: 2em;
+  color: white;
+}
+
 .border-top {
   border-top: 1px solid #3a567d !important;
 }
@@ -143,6 +169,12 @@ a {
   }
   .footer-custom h2 {
     font-size: 1.35em;
+  }
+  .portfolio-list .card {
+    min-height: 140px;
+  }
+  .portfolio-list .card-body {
+    padding: 1em;
   }
 }
 /*# sourceMappingURL=base.css.map */
