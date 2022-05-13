@@ -50,6 +50,9 @@ a
   background-color: $gray
 .btn-gray:hover
   background-color: $gray-hover
+.btn-fluid
+  display: block
+  width: 100%
 //Gray sections
 .bg-light
   background-color: $bg-light
@@ -86,8 +89,24 @@ a
   border-top: 1px solid $bg-primary-light
   border-top
 
+/* Contact Us Page */
+.contact-custom
+  ul
+    list-style: none
+    padding-left: 0
+    li
+      a:hover
+        text-decoration: underline
+
+.form-custom
+  background-color: $bg-form
+  border-color: $bg-form
+  color: $text-form
+  border-radius: $form-border-radius
+
 // Footer custom changes
 .footer-custom
+  @extend .contact-custom
   background-color: $bg-lighter
   h2
     font-size: 1.65em
@@ -97,12 +116,6 @@ a
     margin-bottom: 0.25rem
   p
     margin-bottom: 0
-  ul
-    list-style: none
-    padding-left: 0
-    li
-      a:hover
-        text-decoration: underline
   .fs-xs
     font-size: 0.75rem
   
@@ -112,7 +125,9 @@ a
       font-size: 3em
   .business-card:not(:last-of-type)
     border-right: 1px solid rgba(58, 86, 125, .4)
-
+  .grab-coffee
+    h2
+      font-size: 3em
 // Media queries
 @media screen and (max-width: 767px)
   h2

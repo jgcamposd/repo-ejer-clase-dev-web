@@ -73,6 +73,11 @@ a {
   background-color: #e2e6ea !important;
 }
 
+.btn-fluid {
+  display: block;
+  width: 100%;
+}
+
 .bg-light {
   background-color: #eaeef2 !important;
 }
@@ -120,6 +125,23 @@ a {
   border-top: 1px solid #3a567d !important;
 }
 
+/* Contact Us Page */
+.contact-custom ul, .footer-custom ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-custom ul li a:hover, .footer-custom ul li a:hover {
+  text-decoration: underline;
+}
+
+.form-custom {
+  background-color: #edeeef !important;
+  border-color: #edeeef !important;
+  color: #aaa !important;
+  border-radius: 30px;
+}
+
 .footer-custom {
   background-color: #f8f9fa !important;
 }
@@ -138,15 +160,6 @@ a {
   margin-bottom: 0;
 }
 
-.footer-custom ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.footer-custom ul li a:hover {
-  text-decoration: underline;
-}
-
 .footer-custom .fs-xs {
   font-size: 0.75rem;
 }
@@ -157,6 +170,9 @@ a {
   }
   .business-card:not(:last-of-type) {
     border-right: 1px solid rgba(58, 86, 125, 0.4);
+  }
+  .grab-coffee h2 {
+    font-size: 3em;
   }
 }
 
